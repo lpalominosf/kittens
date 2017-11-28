@@ -8,6 +8,9 @@ Resetear el navegador
   padding: 0;
 }
 
+/*
+Sacando el scroll
+*/
 body {
   overflow-y: hidden;
   overflow-x: hidden;
@@ -16,7 +19,6 @@ body {
 /*
 formula para el ancho de las columnas (numero columnas / 12) * 100
 */
-
 .col-1 {
   width: 8.333333%;
   border: 1px solid red;
@@ -94,7 +96,9 @@ Posicionamiento de los gatitos
   padding-left: 10%;
 }
 
-
+/*
+Adaptabilidad dependiendo de los tamaños del navegador
+*/
 @media (min-width: 1024px) and (max-width: 1600px) {
   body {
     background-image: url(../img/sunny-day.jpg);
